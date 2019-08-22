@@ -8,5 +8,66 @@
 h1 {
     font-family: 'Cookie', cursive;
     font-size: 71px;
-    color: purple;
+    color: #E4F5EB;
+    text-align: center
+}
+
+body {
+    background-image: url(./assets/04-BG.png)
+}
+
+
+.topo {
+    border: #ACCFB8;
+    margin-left: 42%;
+    background-color: #ACCFB8;
+    
+    
+}   
+
+
+
+
+
+
+
+
+
+/* CSS reset */
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+}
+
+  /* content que contem os formulários */
+.content{
+    width: 500px;
+    margin: 0px auto;
+    position: relative;   
+}
+
+p{
+    margin-bottom:20px;
+}
+
+input[type="text"]{
+    width: 90%;
+    margin-top: 4px;
+    padding: 10px;    
+    border-radius: 7px;
+    
+}
+textarea{
+    border-radius: 7px;
+}
+
+input[type="submit"]{
+    width: 95%!important;
+    background: #71A495;
+    padding: 8px 50px;
+    color: #fff;
+    font-size: 30px;   
+    text-shadow: 0 3px 1px #333;
+    border-radius: 7px;
 }
