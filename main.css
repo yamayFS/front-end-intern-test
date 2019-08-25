@@ -6,7 +6,7 @@
 
 h1 {
     font-family: 'Cookie', cursive;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 71px;
     color: #E4F5EB;
     text-align: center;
@@ -25,7 +25,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-  
+
 
 .navbar {
     background-color: #ACCFB8;
@@ -41,14 +41,13 @@ body {
     width: 450px;
     margin:  auto;
     position: relative;
-    margin-left: 470px;   
     
 }
 
 
 
 input[type="text"]{
-    font-family: "Open Sans Light";
+    font-family: "Open Sans ";
     font-weight: lighter;
     font-size: 18px;
     width: 85%;
@@ -59,15 +58,17 @@ input[type="text"]{
     
 }
 textarea{
-    font-family: "Open Sans Light";
+    font-family: "Open Sans ";
     font-weight: lighter;
+    font-size: 18px;
     border-radius: 7px;
     margin-bottom:10px;
     width: 402px;
+    height: 150px;
 }
 
 input[type="submit"]{
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans ";
     font-weight: bold;
     font-size: 22px;
     width: 90%;
