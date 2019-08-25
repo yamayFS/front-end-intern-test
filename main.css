@@ -4,70 +4,76 @@
 /* font-family: 'Open Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 
-
 h1 {
     font-family: 'Cookie', cursive;
+    font-weight: lighter;
     font-size: 71px;
     color: #E4F5EB;
-    text-align: center
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 450px;
 }
 
 body {
-    background-image: url(./assets/04-BG.png)
+    background-image: url(./assets/04-BG.png);
+    margin: 0px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
 
-.topo {
-    border: #ACCFB8;
-    margin-left: 42%;
+.navbar {
     background-color: #ACCFB8;
-    
-    
-}   
+    top: 0; 
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
-
-
-
-
-
-
-
-
-/* CSS reset */
-*, *:before, *:after { 
-    margin:0;
-    padding:0;
-    font-family: Arial,sans-serif;
 }
 
-  /* content que contem os formulários */
+
 .content{
-    width: 500px;
-    margin: 0px auto;
-    position: relative;   
+    width: 450px;
+    margin:  auto;
+    position: relative;
+    margin-left: 470px;   
+    
 }
 
-p{
-    margin-bottom:20px;
-}
+
 
 input[type="text"]{
-    width: 90%;
+    font-family: "Open Sans Light";
+    font-weight: lighter;
+    font-size: 18px;
+    width: 85%;
     margin-top: 4px;
     padding: 10px;    
     border-radius: 7px;
+    margin-bottom:10px;
     
 }
 textarea{
+    font-family: "Open Sans Light";
+    font-weight: lighter;
     border-radius: 7px;
+    margin-bottom:10px;
+    width: 402px;
 }
 
 input[type="submit"]{
-    width: 95%!important;
+    font-family: "Open Sans Bold";
+    font-weight: bold;
+    font-size: 22px;
+    width: 90%;
     background: #71A495;
     padding: 8px 50px;
     color: #fff;
-    font-size: 30px;   
-    text-shadow: 0 3px 1px #333;
     border-radius: 7px;
+    
 }
