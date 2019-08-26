@@ -50,7 +50,7 @@ input[type="text"]{
     font-family: "Open Sans ";
     font-weight: lighter;
     font-size: 18px;
-    width: 85%;
+    width: 90%;
     margin-top: 4px;
     padding: 10px;    
     border-radius: 7px;
@@ -63,7 +63,7 @@ textarea{
     font-size: 18px;
     border-radius: 7px;
     margin-bottom:10px;
-    width: 402px;
+    width: 422px;
     height: 150px;
 }
 
@@ -71,8 +71,8 @@ input[type="submit"]{
     font-family: "Open Sans ";
     font-weight: bold;
     font-size: 22px;
-    width: 90%;
-    background: #71A495;
+    width: 95%;
+    background: #71a496;
     padding: 8px 50px;
     color: #fff;
     border-radius: 7px;
